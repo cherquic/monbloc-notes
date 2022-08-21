@@ -1,0 +1,373 @@
+Compte;Libellé;Clés Analy. Prévi;Clé 2
+60111000;Alimentation (Achats Directs);D Prévi;Non utilisé
+60112000;Rachats Ateliers (restaurant...);D Prévi;Non utilisé
+60120000;Matières Premières d'Ateliers;Enseign.;Direct
+60140000;Achats stockés de produits agricoles;Enseign.;Direct
+60170000;Fournitures d'Ateliers;Enseign.;Direct
+60181000;Fournitures Papier Reproductio;Enseign.;C
+60182000;Fournitures Informatiques;Enseign.;C
+60183000;Autres Fournit. Péda. Scolaire;Enseign.;A
+60210000;Matières consommables;Direct;Direct
+60221100;Fuel;BS;B
+60221200;Gaz chauffage;BS;B
+60221300;Gaz Cuisine;Restaur.;Non utilisé
+60221400;Bois;BS;B
+60222000;Produits d'Entretien;BS;B
+60223000;Fournitures d'atelier;Enseign.;Direct
+60225000;Fournitures de Bureau & Admin.;Enseign.;C
+60226000;Fournitures scolaires;Enseign.;Direct
+60227000;Fournitures pour rétrocession (examen, ...);Enseign.;Direct
+60311100;Variation Alimentation;Non Utilisé;Non Utilisé
+60311200;Variation alimentation (rachat aux ateliers);D Prévi;Non utilisé
+60312000;Variation Stocks Mat1er Fourni;Enseign.;Direct
+60314000;Variation produits agricoles;Enseign.;Direct
+60317000;Variation Stocks fourn.atelier;Enseign.;Direct
+60318000;Variation Stocks Four. Péda.S.;Enseign.;A
+60321000;Variation matières consommables;Direct;Direct
+60322110;Variation Combustibles chauffage;BS;B
+60322120;Variation Combustibles cuisine;D Prévi;Non utilisé
+60322200;Variation Stocks produits entr;BS;B
+60322300;Variation Fournitures d'atelier;Enseign.;Direct
+60322500;Variation Stocks Fourn.Bureau;Enseign.;C
+60322600;Variation Fournitures scolaires;Enseign.;Direct
+60322700;Variation Fournitures rétrocession;Enseign.;Direct
+60322701;Variation Fournitures pour rétrocession;Non Utilisé;Non utilisé
+60410000;Achat en co-traitance;Enseign.;Direct
+60421000;Achats en sous-traitance pour FI;Enseign.;Direct_Agri
+60422000;Achats en sous-traitance pour FC;Enseign.;Direct FC
+60423000;Achats en sous-traitance pour Formation APP;Enseign.;Direct CFA
+60611000;Electricité;BS;B
+60612000;Eau;BS;B
+60613000;Gaz de ville;D Prévi;Non utilisé
+60614100;Carburants Véhic. Transp. en Com.;Enseign.;C
+60614200;Carburants Lubrifiants Voitures;BS;B
+60615000;Combustibles;BS;B
+60616000;Matières d'œuvre;Enseign.;C
+60630000;Fournitures Entretien et petit Equip;BT;B
+60640000;Fournitures administratives;BT;B
+60671000;Fournitures et petit matériel pédago;BS;B
+60671100;Frais annexes 1er équipement;BS;B
+60672000;Matériel de Sport;Enseign.;Direct ou A
+60673000;Matériels Audio-Visuels;Enseign.;C
+60674000;Pharmacie;Enseign.;C
+60681000;Petit mobilier;T;Direct
+60688000;Divers;T;Direct
+60900000;RRRO sur achats;Non Utilisé;Non Utilisé
+61100000;Sous-traitance générale;Direct;Direct ou B
+61210000;Redevances de crédit-bail mobilier;Direct;C
+61220000;Redevances de crédit-bail immobilier;Direct;C
+61320000;Locations Immobilières;S;Direct ou B
+61351000;Locations mobilières de matériel pédagogique;S;C
+61352000;Locations mobilières non pédagogiques;S;C
+61400000;Charges Locatives & de Coprop.;S;Direct ou B
+61520000;Entretien Réparation Bâtiments;BS;B
+61551000;Entretien Réparation Alarme;BS;B
+61552000;Entretien Réparation Véhicules;BS;B
+61553000;Entretien Répar. Photocopieur;Enseign.;B
+61554000;Entretien Répar. Informatique;Enseign.;C
+61555000;Entretien Répar. Autres Mat.;BS;B
+61556000;Entretien Lingeries Couverture;Héberg.;Non utilisé
+61561000;Maintenance Alarme et sécurité;BT;B
+61563000;Maintenance Informatique et Photocop;Enseign.;B
+61568000;Autres;BS;B
+61610000;Assurance Responsabilité civile;BS;B
+61620000;Assurance des immeubles;S;B
+61630000;Assurance Véhicules;BS;B
+61660000;Assurance apprenants;Enseign.;Direct
+61670000;Autres Assurances;BS;Direct
+61700000;Etudes et Recherches;T;Direct
+61810000;Documentation Générale;Enseign.;C
+61820000;Abonnements;Enseign.;C
+61830000;Documentation Technique;Enseign.;C
+61850000;Frais de Colloques Séminaires;Enseign.;C
+62111000;Personnel intérimaire - Formation;Réintégration;Réintégration
+62111100;Personnel intérimaire - Formation initiale;Enseign.;Direct
+62111200;Personnel intérimaire - Formation continue;Enseign.;Direct
+62111300;Personnel intérimaire - Apprentissage;Enseign.;Direct
+62111400;Personnel intérimaire - Autre;Enseign.;Direct
+62112000;Personnel Intérimaire Animation Surveillance;R;E2
+62113000;Personnel Intérimaire Administratif;BEns;B
+62114000;Personnel Intérimaire Service;D Prévi;B
+62122000;Personnels intervenants ext. Animation Surveillance;R;E2
+62123000;Personnels intervenants ext. Administratif;BEns;B
+62124000;Personnels intervenants ext. Service;D Prévi;B
+62141000;Personnels détachés Formation;Réintégration;Réintégration
+62141100;Personnels détachés - Formation initiale;Enseign.;Direct
+62141200;Personnels détachés - Formation continue;Enseign.;Direct
+62141300;Personnels détachés - Apprentissage;Enseign.;Direct
+62141400;Personnels détachés - Autre;Enseign.;Direct
+62142000;Personnel Animation Surveillance Détaché;R;E2
+62143000;Personnel Administratif Détaché ou Prêté ;BEns;B
+62144000;Personnel Service Détaché ou Prêté;D Prévi;B
+62261000;Honoraires personnel de formation;Réintégration;Réintégration
+62261100;Hono. Form. pour Formation initiale;Enseign.;Direct
+62261200;Hono. Form. pour Formation continue;Enseign.;Direct
+62261300;Hono. Form. pour Formation apprentissage;Enseign.;Direct
+62264000;Honoraires sur legs ou donations;Direct;Direct
+62268000;Honoraires de Structures;T;C
+62270000;Frais d'Actes & de Contentieux;T;C
+62280000;Divers;Direct;Direct
+62310000;Annonces et insertions;Enseign.;Direct
+62330000;Manifestations & expositions;Enseign.;C
+62340000;Relations publiques - Cadeaux;Association;Non utilisé
+62360000;Catalogues & Imprimés;Enseign.;C
+62380000;Divers (Pourboires. Dons...);T;C
+62410000;Transports de Biens;BT;B
+62460000;Transports Formation initiale;Enseign.;A
+62463000;Transports Formation initiale;Enseign.;A
+62464000;Transports Formation continue;Enseign.;A
+62465000;Transports Apprentissage;Enseign.;A
+62511000;Déplacements du personnel ;Direct;C
+62512000;Déplacements des administrateurs;Enseign.;C
+62520000;Déplacements membres du jury;Enseign.;C
+62530000;Déplacements Intervenants;Enseign.;C
+62531000;Pour Formation Initiale;Enseign.;Direct ou C
+62532000;Pour Formation Continue;Enseign.;Direct ou C
+62533000;Pour Apprentissage;Enseign.;Direct ou C
+62550000;Frais de déménagement;T;C
+62560000;Missions;Enseign.;C
+62570000;Réceptions;T;C
+62610000;Frais postaux;Enseign.;B
+62620000;Frais de télécommunications;Enseign.;B
+62700000;Services Bancaires;Enseign.;B
+62811000;Cotisation FDMF;Enseign.;Direct ou A
+62812000;Cotisation FRMF;Enseign.;Direct ou A
+62813000;Cotisation UNMFR;Enseign.;C
+62818000;Cotisations diverses;Enseign.;Direct ou B
+62821000;Formations Personnels;Enseign.;A
+62822000;Formations Administrateurs;Enseign.;B
+62828000;Formations Autres;Direct;B
+62851000;Hébergement extérieur des apprenants;Héberg.;Direct ou C
+62852000;Hébergement extérieur personnels;Héberg.;Direct ou C
+62853000;Hébergement extérieur administrateurs;Héberg.;Direct ou C
+62861000;Restauration extérieure des apprenants;D Prévi;Direct ou C
+62862000;Restauration extérieure personnels;D Prévi;Direct ou C
+62863000;Restauration extérieure administrateurs;D Prévi;Direct ou C
+62864000;Prestation restauration;D Prévi;Direct ou C
+62870000;Voyages d'études, Mobilité;Héberg.;Direct
+62871100;Hébergement - FI;Héberg.;Direct
+62871200;Restauration - FI;D Prévi;Direct
+62871300;Transport - FI;Enseign.;Direct
+62871400;Frais encadrants - FI;Enseign.;Direct
+62871800;Autres - FI;Direct;Direct
+62872100;Hébergement - FC;Héberg.;Direct
+62872200;Restauration - FC;D Prévi;Direct
+62872300;Transport - FC;Enseign.;Direct
+62872400;Frais encadrants - FC;Enseign.;Direct
+62872800;Autres - FC;Direct;Direct
+62873100;Hébergement - App;Héberg.;Direct
+62873200;Restauration - App;D Prévi;Direct
+62873300;Transport - APP;Enseign.;Direct
+62873400;Frais encadrants - App;Enseign.;Direct
+62873500;Compensation revenu des apprentis - APP;Enseign.;Direct
+62873800;Autres - App;Direct;Direct
+62881000;Activités Pédagogiques;Enseign.;A
+62882000;Activités vie résidentielle;Direct;A
+62883000;Activités extérieurs groupes accueillis;Association;Non utilisé
+62884000;Frais centre d'examen;Enseign.;A
+63330000;Formation Continue (GDFPE OCAPIAT ...);Enseign.;E2
+63340000;Part. Effort de Construction;Direct;Direct
+63380000;Autres Impôts Taxes;Direct;Direct
+63512000;Taxes Foncières;S;B
+63513000;Autres Impôts Locaux;S;B
+63540000;Droits d'Enregistrement Timbre;Enseign.;Direct
+63580000;Autres Droits;Direct;B
+63700000;Autres impôts;Direct;Direct
+64111000;Salaires personnel Formation et Animation;Réintégration;Réintégration
+64112000;Salaires Personnel Direction;Réintégration;Réintégration
+64113000;Salaires Personnel Administra.;Réintégration;Réintégration
+64114000;Salaires Personnel Service;Réintégration;Réintégration
+64120000;Congés Payés;Réintégration;Réintégration
+64130000;Primes & Gratifications;R;E2
+64140000;Indemnités & Avantages Divers;R;E2
+64170000;Avantages en nature;R;E2
+64511000;MSA personnel Formation et Animation;Réintégration;Réintégration
+64512000;MSA ou URSSAF Pers. Direction;Réintégration;Réintégration
+64513000;MSA ou URSSAF Pers. Administrat.;Réintégration;Réintégration
+64514000;MSA ou URSSAF Pers. Service;Réintégration;Réintégration
+64521000;AG2R personnel Formation et Animation;Réintégration;Réintégration
+64522000;AG2R Pers. Direction;Réintégration;Réintégration
+64523000;AG2R Pers. Administratif;Réintégration;Réintégration
+64524000;AG2R Pers. Service;Réintégration;Réintégration
+64580000;Cotisations aux autres organismes sociaux;R;E2
+64590000;Charges Sociales sur CP;R;E2
+64800000;Autres charges du personnel;R;E2
+65100000;Redevances pour concessions, brevets licences, marques;Direct;Direct
+65300000;Charges de la générosité du public;Non Utilisé;Non Utilisé
+65411000;Pertes sur créances de l'exercice Formation initiale;Direct;Direct ou A
+65412000;Pertes sur créances de l'exercice Apprentissage;HR;Non utilisé
+65413000;Pertes sur créances de l'exercice Formation continue;Direct;Direct ou A
+65418000;Pertes sur créances de l'exercice Autres;Direct;Direct ou A
+65420000;Pertes sur créances des exercices antérieurs;Non Utilisé;Non Utilisé
+65710000;Aides financières octroyées;Direct;Direct
+65720000;Quotes-parts de générosité reversée;Direct;Direct
+65800000;Autres Charges Gestion Courante;Enseign.;Direct
+66110000;Intérêts des Emprunts & Dettes;Enseign.;C
+66150000;Intérêts des comptes courants;Enseign.;C
+66700000;Charges Nettes sur Ces. de Val Mob Plac;Association;Non utilisé
+66800000;Autres Charges Financières;Enseign.;C
+67120000;Pénalités Amendes Fiscales Pén;Non utilisé;Non utilisé
+67180000;Charges Excep/Op. Gest. Cour.;Non utilisé;Non utilisé
+67200000;Charges Exc. Exerc. Anter.;Non Utilisé;Non Utilisé
+67300000;Apports ou affectations en numéraire;Non Utilisé;Non Utilisé
+67500000;Valeur Compt. Des El. D'Act. Cédés;Non Utilisé;Non Utilisé
+67800000;Charges Exceptionnelles Divers;Non utilisé;Non utilisé
+68110000;Dot. aux amort. des immo. incorporelles et corporelles;Direct;Direct
+68120000;Dot. Aux amort. Charges d'exploitation;Direct;C
+68151000;Dot. aux provisions pour grosses réparations;Direct;C
+68152000;Dot. aux provisions pour litiges;Direct;C
+68154000;Dot. aux prov. pour amendes et pénalités;Direct;C
+68155000;Dot. aux prov. pour pensions et obligations - retraites;BR;E2
+68158000;Dot. aux prov. Autres charges d'exploitation;Direct;C
+68161000;Dot. Prov. Pour dépréciation Immo corp. Et incorp.;Direct;C
+68164000;Dot. Prov. Pr dépréciation d'actifs reçus par legs ou donations destinés à être cédés;Direct;C
+68170000;Dot. aux provisions pour dépréciation des actifs circulants;Direct;C
+68174000;Dot. aux provisions pour dépréciation de créances;Direct;C
+68174100;Dot. aux provisions pour dépréciation de créances - FI;Direct;C
+68174200;Dot. aux provisions pour dépréciation de créances - App;Direct;C
+68174300;Dot. aux provisions pour dépréciation de créances - FC;Direct;C
+68174800;Dot. aux provisions pour dépréciation de créances autres;Direct;C
+68600000;Dot. et prov. pour risques et charges financières;Direct;C
+68700000;Dot. aux  amortissements et aux provisions - Charges Exceptionnelles;Direct;C
+68910000;Reports en fonds reportés;Association;Non Utilisé
+68940000;Reports en fonds dédiés sur subventions d'exploitation;Direct;C
+68950000;Reports en fonds dédiés sur contributions financières d'autres organismes;Association;Non Utilisé
+68960000;Reports en fonds dédiés sur ressources liées à la générosité du public;Association;Non Utilisé
+69500000;Impôts sur les bénéfices;Association;Non Utilisé
+;TOTAL;;
+70110000;Vente Produits Finis à la MFR;Enseign.;Direct
+70120000;Recettes Restaurant Applicatio;Enseign.;Direct
+70130000;Autres Ventes Produits Finis;Enseign.;Direct
+70200000;Ventes de produits intermédiaires;Direct;Direct
+70300000;Ventes de Produits résiduels;Direct;Direct
+70400000;Travaux dont caractère pédagogique;Direct;Direct
+70500000;Etudes dont caractère pédagogique;Enseign.;Direct
+70611000;Scolarité Ministère Agricult.;Enseign.;Direct_Agri
+70612000;Autres participations-Prestations parascolaires hors pension;Enseign.;Direct_Agri
+70621100;OPCO apprentissage NPEC-formation;Enseign.;Direct_CFA
+70621200;OPCO apprentissage 1er équipement;Enseign.;Direct_CFA
+70621300;CNFPT;Non utilisé;Non utilisé
+70621400;EMPLOYEUR privé (reste à charge);Enseign.;Direct_CFA
+70621500;EMPLOYEUR public (reste à charge);Enseign.;Direct_CFA
+70621600;Autres participations apprentissage;Enseign.;Direct_CFA
+70622100;Fonds privés Particuliers/Entreprises;Enseign.;Direct FC
+70622200;OPCO-FAF  FC;Enseign.;Direct FC
+70622300;Pôle Emploi FC;Enseign.;Direct FC
+70622400;Fonds Européens;Enseign.;Direct FC
+70622500;Conseil Régional FC;Enseign.;Direct FC
+70622600;Autres collectivités territoriales;Enseign.;Direct FC
+70622700;Autres fonds publics (DIRECCTE, CNFPT…);Enseign.;Direct FC
+70622800;Autres OF (sous traitance);Enseign.;Direct FC
+70622900;Autres participation-Prestations hors formation/hors pension;Enseign.;Direct FC
+70630000;Opérations de parrainages;Enseign.;Direct FC
+70641000;Restauration élèves - Formation scolaire;D Prévi;Non utilisé
+70642000;Restauration apprentis + Prépa App;D Prévi;Non utilisé
+70643000;Restauration stagiaires Formation professionnelle;D Prévi;Non utilisé
+70651000;Hébergement élèves - Formation scolaire;Héberg.;Non utilisé
+70652000;Hébergement apprentis + Prépa App;Héberg.;Non utilisé
+70653000;Hébergement stagiaires Formation professionnelle;Héberg.;Non utilisé
+70661000;Mobilité élèves - Formation scolaire;Enseign.;Direct_Agri
+70662000;Mobilité apprentis ;Enseign.;Direct_CFA
+70663000;Mobilité stagiaires Formation professionnelle;Enseign.;Direct_FC
+70671000;Voyages d'étude;Direct;Direct ou A
+70672000;Abonnement au Lien;Enseign.;A
+70700000;Ventes de marchandises dont dons en nature;Direct;Direct ou A
+70813000;Nourriture du Personnel;Restaur.;Non utilisé
+70814000;Logement du personnel;Héberg.;Non utilisé
+70831000;Accueil de groupes extérieurs - Restauration ;Association;Non utilisé
+70832000;Accueil de groupes extérieurs - Hébergement;Association;Non utilisé
+70833000;Locations de salles;Association;Non utilisé
+70834000;Locations de matériel ;Association;Non utilisé
+70841000;Personnel de formation;Enseign.;Direct
+70842000;Autres catégories de personnel;Direct;Direct
+70881000;Cession de fournitures;Direct;Direct
+70882000;Autres produits des activités annexes;Direct;Direct
+71000000;Production stockée;Non utilisé;Non utilisé
+72000000;Production corporelle immobilisée;Direct ou S;Direct
+73010000;Taxe d'apprentissage solde 13%;Enseign.;A
+74111000;Subventions de l'Etat;Direct;Direct
+74113000;Organi. Examens Educat. Natio.;Direct;Direct
+74118000;Autres subventions de l'Etat;Direct;Direct
+74181000;Subv. fonctionnement Ministère de l'Agricul.;Enseign.;A
+74182000;Subv. Minist. Agri. Livres Sco;Enseign.;A
+74188000;Autres subventions du Ministère de l'Agriculture;Enseign.;A
+74421100;CR Subv. Fonctionnement SCOLAIRE;Enseign.;A
+74421200;CR Subv. Fonctionnement APPRENTISSAGE;Enseign.;Direct CFA
+74421300;CR Subv. Fonctionnement FORMATION CONTINUE;Enseign.;Direct FC
+74421400;Autres Subv. Fonctionnement Conseil Régional;Enseign.;A
+74426100;Aide à la mobilité des scolaires;Direct;Direct_Agri
+74426200;Aide à la mobilité des apprentis;Direct ;Direct_CFA
+74426300;Aide à la mobilité des stagiaires FC;Direct;Direct_FC
+74427100;Fonds Social scolaire;Direct;Direct_Agri
+74427200;Fonds Social apprentis;Direct ;Direct_CFA
+74427300;Fonds Social stagiaires FC;Direct;Direct_FC
+74428100;Autres aides aux scolaires;Direct;Direct_Agri
+74428200;Autres aides aux apprentis;Direct ;Direct_CFA
+74431000;Subventions Conseil départ. des scolaires;Association;Direct_Agri
+74432000;Subventions Conseil départ. des apprentis;Association;Direct_CFA
+74433000;Subventions Conseil départ, des stagiaires formation continue;Association;Direct FC
+74440000;Communes et Groupement Commune;Direct;Direct
+74461000;Subventions organisme internat. des scolaires;Direct;Direct
+74462000;Subventions organisme internat. des apprentis;Direct;Direct
+74463000;Subventions organisme internat. des stagiaires formation continue;Direct;Direct
+74481000;Subv. Chambre d'Agriculture;Direct;Direct ou C
+74482000;Subv. MSA;Direct;Direct
+74489000;Autres subventions organismes publics;Restaur.;Non utilisé
+74800000;Autres subventions;Direct;Direct
+75310000;Versements des fondateurs  ;Association;Non utilisé
+75320000;Quotes-parts de dotation consomptible virée au compte de résultat;Association;Non utilisé
+75411000;Dons manuels;Association;Non utilisé
+75412000;Abandons de frais par les bénévoles;Association;Non utilisé
+75420000;Mécénats;Association;Non utilisé
+75431000;Assurance-vie;Association;Non utilisé
+75432000;Legs ou donations;Association;Non utilisé
+75433000;Autres produits sur legs ou donations;Association;Non utilisé
+75510000;Contributions financières d'autres organismes;Association;Non utilisé
+75520000;Quotes-parts de générosité reçues;Association;Non utilisé
+75610000;Cotisations avec contrepartie;Association;Non utilisé
+75620000;Cotisations sans contrepartie;Association;Non utilisé
+75800000;Produits divers de gestion courante ;Direct;Direct
+76100000;Produits des participations;Association;Non utilisé
+76200000;Produits des immobilisations financières;Association;Non utilisé
+76300000;Revenus des autres créances;Direct ou T;C
+76400000;Revenus Valeurs Mobilières de placement;Association;Non utilisé
+76500000;Escomptes obtenus;Direct ou T;C
+76600000;Gains de change;Direct ou T;C
+76700000;Produits Nets de Cession Valeur Placement;Association;Non utilisé
+76800000;Autres Produits Financiers;Association;Non utilisé
+77100000;Produits exceptionnels sur opération de gestion de l'exercice;Non Utilisé;Non Utilisé
+77200000;Prod. Exc. sur Exer. Ant.;Non utilisé;Non utilisé
+77510000;Produits Cessions Elé. d'Actif;Direct;C
+77540000;Immobilisations reçues en legs ou donations destinées à être cédées;Association;Non utilisé
+77700000;Quote-part des subventions d'investissement;Non Utilisé;Non Utilisé
+77800000;Autres produits exceptionnels;Non utilisé;Non utilisé
+78110000;Reprises sur amort. des immobilisations incorporelles et corporelles;Direct;Direct ou C
+78150000;Reprises sur provisions pour risques et charges d'exploitation;Direct;Direct ou C
+78160000;Reprises sur dépréciations d'actifs reçus par legs ou donations destinées à être cédés;Direct;Direct ou C
+78170000;Reprises sur provisions pour dépréciations de créances;Direct;Direct ou C
+78600000;Reprises sur provisions produits financiers;Direct;Direct ou C
+78700000;Reprises sur provisions produits exceptionnels;Direct;Direct ou C
+78910000;Utilisation de fonds reportés;Association;Non utilisé
+78940000;Utilisation de fonds dédiés sur subventions d'exploitation;Association;Non utilisé
+78950000;Utilisation de fonds dédiés sur contributions financières d'autres organismes;Association;Non utilisé
+78960000;Utilisation de fonds dédiés sur ressources liées à la générosité du public;Association;Non utilisé
+79110000;Autres remboursements;Direct;Direct ou C
+79131000;Remboursement des frais de formation du personnel;Direct;Direct
+79132000;Remboursement des contributions volontaires pour formation du personnel;Direct;Direct
+79140000;Remb Frais Médicaux et Pharmacie;Non utilisé;Non utilisé
+79150000;Frais d'Impayés;Non utilisé;Non utilisé
+79160000;Avantages en nature;R;E2
+79170000;Remboursements par Assurances;Non utilisé;Non utilisé
+79180000;Remboursements Dégradations;Non utilisé;Non utilisé
+79191000;Remboursement de salaires;R;E2
+79192000;Remboursement des Indemnités Journalières;R;E2
+79600000;Transfert de Charges Financières;Non utilisé;Non utilisé
+79700000;Transfert de Charges Exceptionnelles;Non Utilisé;Non Utilisé
+79800000;Transferts de charges autres;Non utilisé;Non utilisé
+86100000;Secours en nature;Association;Non utilisé
+86200000;Mises à disposition gratuite de biens;Association;Non utilisé
+86300000;Prestations;Association;Non utilisé
+86400000;Personnel bénévole;Association;Non utilisé
+87100000;Dons en nature;Association;Non utilisé
+87200000;Prestations en nature;Association;Non utilisé
+87500000;Bénévolat;Association;Non utilisé

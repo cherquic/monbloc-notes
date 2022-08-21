@@ -1,0 +1,86 @@
+{% extends "base.html.twig" %}
+{% block head %} 
+    {{ parent() }} 
+    <script type="text/javascript" src='/public/DataTables/media/js/jquery.js'></script>
+    <script type="text/javascript" src='/public/DataTables/media/js/jquery.dataTables.min.js'></script>
+    <link rel="stylesheet" type="text/css" href='/public/DataTables/media/css/jquery.dataTables.min.css'>
+    <script type="text/javascript" src='/public/DataTables/tableau.js'></script>
+ {% endblock %}
+{% block header %} {{ parent() }} {% endblock %}
+{% block nav %} {{ parent() }}  {% endblock %}
+
+{% block content %}
+
+        <h1  style="margin-left:50px"> Balance <button class="btn btn-primary" id="openItemForm" onclick="openItemForm()"> <i class="fa fa-caret-square-o-right"></i></button> </h1>
+        
+         <!-- Importer un fichier -->
+        <div id="ItemForm" class="items itemForm">
+            <div class="form-container">
+                <h1><a href="javascript:void(0)" class="btn btn-primary btn-right" style ="text-decoration: none;" id="closeItemForm" onclick="closeItemForm()">&times;</a></h1>
+                <h2>Rattacher la balance au plan comptable regional  </h2> 
+                <form  class="form-items-left" action="" method="post" id="ItemForm">
+                
+                        <label for="selected">Comptes de la balance selectionnés </label>
+                        <div class="form-input"  style ="margin-top:5px; border:none; font-weight:bold;">
+                            <textarea  class="form-control" style="min-width: 35rem;" rows="3" id="form_selected" name="comptesBal"></textarea>
+                        </div>
+                        <label for="browser" >Selectionner un compte du plan comptable</label>
+                        <div class="form-input" style ="margin-top:5px; border:none;font-weight:bold;">
+                            <select id ="comptePC" name ="comptePC" class="form-select" style="min-width: 35rem;">
+                                {% for comptePC in comptesPC %}
+                                    <option> {{comptePC.compte}}  -  {{comptePC.libelle}}  </option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    <button class="btn btn-primary" id="RattCpts">Rattacher</button>
+                    <button class="btn btn-primary"  id="clear">Clear</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Balance -->
+        <div class="dataTables_length" id="example_length" style="margin:50px">
+            <table id="datatables-balance" class="display dataTable"    aria-describedby="example_info">
+                <thead style="background-color:rgb(128, 123, 123); color:#f2f4f7;">
+                    <tr> 
+                        <th class="sorting sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-sort="ascending" 
+                            aria-label="Name: activate to sort column descending" style="width: 5%;">Etat</th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Position: activate to sort column ascending" style="width: 10%;">ComptePC</th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Office: activate to sort column ascending" style="width: 10%;">Compte</th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Age: activate to sort column ascending" style="width: 25%;">LibellePC</th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Start date: activate to sort column ascending" style="width:25%;">Libelle</th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Salary: activate to sort column ascending" style="width: 10%;text-align:right;padding-right: 5px;">Credit</th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Salary: activate to sort column ascending" style="width: 10%;text-align:right;padding-right: 5px;">Debit</th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Salary: activate to sort column ascending" style="width: 5%;">Select</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for compte in comptes %}
+                        <tr>
+                            <td  style="width: 5%;">  {{compte.attachment}} </td>
+                            <td style="width: 10%;"> {{compte.comptePC}} </td>
+                            <td  style="width: 10%;"> {{compte.compte}} </td>
+                            <td  style="width: 25%;"> {{compte.libellePC}} </td>
+                            <td  style="width: 25%;"> {{compte.libelle}} </td>
+                            <td  style="width: 10%;text-align:right;padding-right: 5px;"> {{compte.credit}} </td>
+                            <td  style="width: 10%;text-align:right;padding-right: 5px;"> {{compte.debit}} </td>
+                            <td  style="width: 5%;"><input type="checkbox" id= "{{compte.id}}"> </td>
+                        </tr>
+                    {% endfor %}
+                    
+                </tbody>
+            </table>    
+        </div>
+
+{% endblock %}
+
+ 
+{% block footer %} {{ parent() }} {% endblock %}

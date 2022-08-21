@@ -1,0 +1,52 @@
+{% extends "base.html.twig" %}
+{% block head %} 
+    {{ parent() }} 
+    <script type="text/javascript" src='/public/DataTables/media/js/jquery.js'></script>
+    <script type="text/javascript" src='/public/DataTables/media/js/jquery.dataTables.min.js'></script>
+    <link rel="stylesheet" type="text/css" href='/public/DataTables/media/css/jquery.dataTables.min.css'>
+    <script type="text/javascript" src='/public/DataTables/tableau.js'></script>
+ {% endblock %}
+{% block header %} {{ parent() }} {% endblock %}
+{% block nav %} {{ parent() }}  {% endblock %}
+
+{% block content %}
+
+        <h2  style="margin-left:50px"> Plan comptable regional </h2>
+        
+        <!-- Formulaire de rattachement -->
+
+
+        <!-- Balance -->
+        <div class="dataTables_length" id="example_length" style="margin:50px">
+            <table id="example" class="display dataTable"    aria-describedby="example_info">
+                <thead style="background-color:rgb(128, 123, 123); color:#f2f4f7;">
+                    <tr> 
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Position: activate to sort column ascending" style="width:15%;">ComptePC</th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Age: activate to sort column ascending" style="width: 35%;">LibellePC</th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Start date: activate to sort column ascending" style="width:25%;">CleAna</th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Salary: activate to sort column ascending" style="width: 25%;">Cle2</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for compte in comptes %}
+                        <tr>
+                            <td  style="width: 10%;"> {{compte.compte}} </td>
+                            <td  style="width: 25%;"> {{compte.libelle}} </td>
+                            <td  style="width: 25%;"> {{compte.cleAna}} </td>
+                            <td  style="width: 25%;"> {{compte.cle2}} </td>
+                        </tr>
+                    {% endfor %}
+                    
+                </tbody>
+            </table>    
+        </div>
+
+{% endblock %}
+
+ 
+{% block footer %} {{ parent() }} {% endblock %}

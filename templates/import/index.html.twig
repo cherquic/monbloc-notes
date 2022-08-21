@@ -1,0 +1,72 @@
+{% extends "base.html.twig" %}
+{% block head %} 
+    {{ parent() }} 
+    <script type="text/javascript" src='/public/DataTables/media/js/jquery.js'></script>
+    <script type="text/javascript" src='/public/DataTables/media/js/jquery.dataTables.min.js'></script>
+    <link rel="stylesheet" type="text/css" href='/public/DataTables/media/css/jquery.dataTables.min.css'>
+    <script type="text/javascript" src='/public/DataTables/tableau.js'></script>
+ {% endblock %}
+{% block header %} {{ parent() }} {% endblock %}
+{% block nav %} {{ parent() }}  {% endblock %}
+
+{% block content %}
+
+        <h2  style="margin-left:50px"> Fichiers CSV importés </h2>
+
+        <!-- Importer un fichier -->
+        <div id="ItemForm" class="items itemForm">
+            <div class="form-container ">
+                <h1>Importer un nouveau fichier</h1> 
+                <form  class="form-items-left"action="" method="post" enctype="multipart/form-data">
+                    <div class="form-input">
+                        <label class="form-label" for="categorie">Catégorie</label><br>
+                        <select class="form-input" name="categorie" id="categorie">
+                            <option value="planComptable">Plan comptable</option>
+                            <option value="balance">Balance</option>
+                        </select>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-label" for="fileToUpload">Fichier</label><br>
+                        <input class="form-input" type="file" name="fileToUpload" id="fileToUpload">
+                    </div>
+                    <button class="btn btn-primary">Importer</button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Suivi des fichiers importés -->
+        <div class="dataTables_length" id="example_length" style="margin:50px">
+            <table id="example" class="display dataTable"    aria-describedby="example_info">
+                <thead style="background-color:rgb(128, 123, 123); color:#f2f4f7;">
+                    <tr> 
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Position: activate to sort column ascending" style="width: 25%;">Table</th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Office: activate to sort column ascending" style="width: 25%;">Fichier</th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Age: activate to sort column ascending" style="width: 25%;">date import</th> 
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                            aria-label="Salary: activate to sort column ascending" style="width: 25%;">Visualiser</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td  style="width: 25%;">  Plan Comptable </td>
+                            <td style="width: 25%;">  </td>
+                            <td  style="width: 25;">  </td>
+                            <th  style="width: 5%;"><button class="btn btn-primary" onclick="openItemForm()">Visualiser</button> </th>
+                        </tr>
+                        <tr>
+                            <td  style="width: 25%;">  Balance </td>
+                            <td style="width: 25%;">  </td>
+                            <td  style="width: 25;">  </td>
+                            <th  style="width: 5%;"><button class="btn btn-primary" onclick="openItemForm()">Visualiser</button> </th>
+                        </tr>
+                </tbody>
+            </table>    
+        </div>
+
+{% endblock %}
+
+ 
+{% block footer %} {{ parent() }} {% endblock %}

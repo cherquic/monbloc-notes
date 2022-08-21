@@ -1,0 +1,228 @@
+/* -- Theme (regrouper des variables (couleur, police) -- */
+/* -- site https://flatuicolors.com/palette/de : choix des couleurs       -- */
+:root {
+  --font-family: 'Open Sans', sans-serif;
+  --nav-background: #eb3b5a;
+  --nav-height: 60px;
+  --primary: #ff416c;
+  --primary-dark: #e64141;
+  --dark: #1e272e;
+  --background-light: #f2f4f7;
+  --background-footer:#eb3b5a;
+  --text-color: #1e272e;
+  --text-color-light: #f2f4f7;
+  --nav-text-size:1.3rem;
+  --box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  --border: 1px solid rgb(128, 123, 123); 
+  --btn-text-size::1.1rem;
+}
+
+/* ---------------------------- */
+/* --  Containers principaux -- */
+/* ---------------------------- */
+* {
+  box-sizing: border-box;						        /* border-box : inclure marging/padding dans les dimensions des bloc	*/		
+  }
+  
+html,body {
+  margin: 0px 20px;
+  padding: 0;
+  font-size: 14px;
+  font-family: var(--font-family); 			 
+    
+}
+
+body{
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  margin :0px;
+  padding:0px;
+  font-size: 1rem;						  /* rem : % de la police racine : éléments CSS responsives, ie qui s'adapent à la taille de la police du support d’affichage */
+  min-height: 95vh;						    /* vh : unité de longueur CSS en %  relative à la hauteur du bloc conteneur initial. */
+  width: 100%;
+  color: var(--text-color);
+  display: inline-block;
+  flex: 1;								    /* flex=1 : prendre toute la largeur adataptive */  
+  flex-flow: row;
+  min-height: 700px;
+}
+
+.content{
+  margin-left: auto;          /* centrer une div */
+  margin-right: auto;
+  margin-top: 50px;
+  min-height: 700px;
+}
+
+.container{			 
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 480px;
+  margin:auto;
+}
+
+
+
+.footer {
+  background: var(--dark);
+  display: flex;
+  flex-flow: row-reverse;					
+  /*flex-flow: row-reverse wrap ; Les éléments internes côte à côte en commençant par la fin du container, retours à la ligne autorisés. */
+  color: var(--text-color-light);
+  font-size:var(--nav-text-size);
+  padding: 1rem;
+  background:var(--background-footer);
+}
+
+/* ---------------------------- */
+/* --  Header                -- */
+/* ---------------------------- */
+header {
+  width:100%;
+  height:60px;
+  line-height:50px;
+  text-transform:uppercase;
+  font-weight:bold;
+  text-align: left;
+}
+
+header #logo{
+  font: inherit;
+  color: #34373a;
+  font-size:2rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header #compte{
+  margin-top:10px;
+  float: right;
+  cursor: pointer;
+  font-size:var(--btn-text-size);
+}
+ 
+header #compte a {
+  color:--var(text-color-light);
+  text-decoration: none;
+}
+/* ---------------------------- */
+/* --  Barre de navigati     -- */
+/* ---------------------------- */
+nav {
+  width:100%;
+  height:var(--nav-height); 
+  line-height:var(--nav-height);   /* sets line height to same height of div to centre text vertically */
+  background:var(--nav-background);  
+  color:--var(text-color-light);
+  position:relative;
+  margin-bottom:-var(--nav-height); /*negative margin set to div height to stop the page jumping when the sticky fixed class is added */
+  z-index:3;
+  overflow: hidden;
+  display : flex;
+  align-items : center ;
+  /* justify-content : center; */
+}
+
+#nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-size:var(--nav-text-size);
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 10px;
+}
+
+
+/* ---------------------------- */
+/* --  Bouttons              -- */
+/* ---------------------------- */
+.btn {
+  background-color: white;
+  font-weight: 700;
+  color: var(--text-color);
+  font-size:var(--btn-text-size);
+  border: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 0 5px;
+  box-shadow: var(--box-shadow);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--text-color-light);
+}
+
+.btn-right {
+  float:right;
+
+}
+
+/* ---------------------------- */
+/* --  Formulaire            -- */
+/* ---------------------------- */
+.form-container {
+  padding: 2rem;
+  background-color: white;
+  border: var(--border);
+  border-radius: 3px;
+  box-shadow: var(--box-shadow);
+  justify-content: center;
+  align-items: center;
+  min-width: 40rem;
+  width: 450px;
+  margin:auto;
+}
+
+.form-container h1 {
+  text-align: center;
+}
+
+.form-container div {
+  margin: 30px 5px;
+  flex: 1;								 
+  display: flex;
+  flex-flow: row;
+  border: var(--border);
+  border-radius: 3px;
+}
+
+.form-items-left {
+  align-items:start;
+}
+
+.form-label {
+  margin: 0 0px;
+  padding: 5px;
+}
+
+.form-input {
+  margin: 0 1px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 5px;
+
+}

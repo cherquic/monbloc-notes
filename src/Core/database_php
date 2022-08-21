@@ -1,0 +1,14 @@
+<?php
+
+try {
+    $pdo = new PDO(
+        'mysql:host=localhost;dbname=blocnotes',
+        'root',
+        'Ga5JnCZzwp2A',
+        [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]
+    );
+} catch (PDOException $e) {
+    echo $e->getMessage();
+}
+
+return $pdo;

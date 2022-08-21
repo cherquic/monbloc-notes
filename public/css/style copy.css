@@ -1,0 +1,343 @@
+/* -- Theme (regrouper des variables (couleur, police) -- */
+/* -- site flatuicolors.com : choix des couleurs       -- */
+:root {
+  --font-family: 'Open Sans', sans-serif;
+  --primary: #ff416c;
+  --primary-dark: #e64141;
+  --dark: #1e272e;
+  --background-light: #f2f4f7;
+  --text-color: #1e272e;
+  --text-color-light: #f2f4f7#f2f4f7;
+  --box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  --border: 1px solid rgb(128, 123, 123);
+
+}
+
+h1 {margin-bottom: 1rem;font-weight: bold;  margin: 0;}
+p{font-size: 14px;  font-weight: 100;  line-height: 20px;  letter-spacing: 0.5px;  margin: 20px 0 30px;}
+h1, p {margin: 0;}
+span{font-size: 12px;}
+a{color: #333;  font-size: 14px;  text-decoration: none;  margin: 15px 0;}
+
+/* ---------------------------- */
+/* --  Containers principaux -- */
+/* ---------------------------- */
+* {
+box-sizing: border-box;						/* border-box : inclure marging/padding dans les dimensions des bloc	*/		
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: var(--font-family); 				/* utilisation du theme */
+  background-color: var(--background-light);
+}
+
+body{
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.wrapper {
+  margin :15px;
+  font-size: 1.6rem;						  /* rem : % de la police racine : éléments CSS responsives, ie qui s'adapent à la taille de la police du support d’affichage */
+  min-height: 95vh;						  /* vh : unité de longueur CSS en %  relative à la hauteur du bloc conteneur initial. */
+  display: flex;
+  flex-flow: column;
+  color: var(--text-color);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--text-color-light);
+  text-decoration: none;
+}
+
+
+header {
+  padding: 0.5rem;
+  background-color: var(--primary);
+  box-shadow:  var(--box-shadow);  		    /* ombre */
+  color : var(--text-color);			      /* color du texte */			   		 
+  display: flex;		                      /* toute la largeur */			 
+  flex-flow: row;
+  justify-content: space-between;
+}	 
+
+.compte{
+  float: right;
+  margin-top: .55rem;
+}
+
+
+.subHeader {
+  padding: 0.5rem;
+  background-color: var(--background-light);
+  box-shadow:  var(--box-shadow);  		    /* ombre */
+  color : var(--text-color);			      /* color du texte */			   		 
+  justify-content: space-between;
+  padding-left: 60px;
+  margin-bottom :30px;
+}	 
+
+
+.content {
+  flex: 1;								    /* flex=1 : prendre toute la largeur adataptive */  
+  display: flex;
+  flex-flow: row;
+}	 
+
+
+
+
+footer {
+  background: var(--dark);
+  display: flex;
+  flex-flow: row-reverse;					
+  /*flex-flow: row-reverse wrap ; Les éléments internes côte à côte en commençant par la fin du container, retours à la ligne autorisés. */
+  color: var(--text-color-light);
+  padding: 1.5rem;
+  display: flex;
+}
+
+
+
+/* ---------------------------- */
+/* --  Header (menu)         -- */
+/* ---------------------------- */
+.header-menu {  
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  }
+
+.header-menu li {
+  margin-left: 10px;
+  border-radius: 3px;
+  padding: 5px 15px;
+  transition: background-color 0.2s;
+  display: inline-block ; 
+  position: relative ; /* positionner ensuite les sous-menus en absolute */
+}	
+
+.header-menu li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--text-color-light);
+}	
+.header-menu a {
+  display: block;   /*Les liens sont transformés en blocs pour pouvoir les dimensionner.*/
+  width: 100px;
+  height: 30px;
+  /*line-height: 10px;*/
+  /*padding: 3px 3px;*/
+  text-align: center;
+}
+
+
+.header-menu li:hover{
+  background-color: var(--primary-dark);		/* changer la couleur de fond au passage de la souris */
+}
+
+.active {
+  background-color: var(--primary-dark);		/* Conserver l couleur de fond si le menu = page active (cf. code PHP) */
+}
+
+
+/* li > a:after { content: ' »'; } /* Changer ce afin de changer le symbole du menu déroulant */
+/* li > a:only-child:after { content: ''; }*/
+
+
+/* ---------------------------- */
+/* --  Header (sous-menus)   -- */
+/* ---------------------------- */
+.header-menu  ul  { 
+  margin: 0;
+  padding: 0px; 
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  display: none;
+}
+
+.header-menu li:hover ul {
+  display: block ;
+  position: absolute;
+  top: 36px; 
+  z-index: 100; /*dessus du reste de ma page.*/
+}
+
+
+.header-menu ul li { 
+  margin-left: -15px;
+  background-color: var(--background-light); /* Couleur d'arriere-plan des sous-menu */ 
+}
+.header-menu ul li:hover {
+  background-color: var(--primary-dark);  /* Couleur d'arriere-plan des sous-menu au survol */ 
+}
+.header-menu ul li a {
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--text-color);	  /* Couleur du texte des sous-menu */ 
+}
+.header-menu ul li:hover a {
+  color: var(--text-color-light);  /* Couleur du texte des sous-menu au survol */
+}
+
+/* ---------------------------- */
+/* --  NavBar                -- */
+/* ---------------------------- */
+.sidenav {
+  height: 94%;
+  width: 0;
+  position: fixed; 
+  z-index: 1;
+  top: 15px;
+  left: 15px;
+  background-color: var(--dark); 	
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.subNav {
+  height: 94%;
+  width: 0;
+}
+.subNav_close{
+  display:block;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 40px;
+}
+
+#main , #subMain{
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav, .subNav {
+      padding-top: 15px;
+  }
+
+  .sidenav a {
+      font-size: 18px;
+  }
+}
+
+/* ---------------------------- */
+/* --  page               -- */
+/* ---------------------------- */
+.items{
+  flex: 1;								    /* flex=1 : prendre toute la largeur adataptive */  
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.itemForm{
+  display:none;
+}
+
+.itemForm-active{
+  display: flex;
+}
+
+/* ---------------------------- */
+/* --  Bouttons              -- */
+/* ---------------------------- */
+
+.btn {
+  background-color: white;
+  font-weight: 700;
+  color: var(--text-color);
+  font-size: 1.6rem;
+  border: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 0 5px;
+  box-shadow: var(--box-shadow);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--text-color-light);
+}
+
+.btn-right {
+  float:right;
+
+}
+
+/* ---------------------------- */
+/* --  Formulaire            -- */
+/* ---------------------------- */
+.form-container {
+  padding: 5rem;
+  background-color: white;
+  border: var(--border);
+  border-radius: 3px;
+  min-width: 60rem;
+  min-height: 40rem;
+  width: 450px;
+  box-shadow: var(--box-shadow);
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container h1 {
+  text-align: center;
+}
+
+.form-container div {
+  margin: 30px 5px;
+  flex: 1;								 
+  display: flex;
+  flex-flow: row;
+  border: var(--border);
+  border-radius: 3px;
+
+}
+
+.form-items-left {
+  align-items:start;
+}
+
+.form-label {
+  margin: 0 0px;
+  padding: 5px;
+}
+
+.form-input {
+  margin: 0 1px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 5px;
+}
+

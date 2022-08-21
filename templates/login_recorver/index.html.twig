@@ -1,0 +1,30 @@
+
+{% extends "base.html.twig" %}
+{% block head %} 
+    {{ parent() }} 
+    <link rel="stylesheet" href='/public/css/login.css'>
+ {% endblock %}
+{% block header %} {{ parent() }} {% endblock %}
+{% block nav %} {{ parent() }}  {% endblock %}
+
+{% block content %}
+    <div class="container container1elt" id="container">
+
+            <div class="form-login-container ">
+                <form action="" method="POST">
+                    <h1>Mot de passe perdu</h1> </br>
+                    <div class="form-login-input">
+                        <input type="email" name="email" placeholder='E-mail' value={{email}}>
+                        {% if error_email %} <p style="color:red"> {{error_email}} </p>{% endif %}
+                        {% if error %} <p style="color:red"> {{error}} </p>{% endif %}
+                    </div>
+                    </br>
+                    <button>Envoyer</button>
+                </form>
+            </div>
+
+    </div>
+{% endblock %}
+
+ 
+{% block footer %} {{ parent() }} {% endblock %}

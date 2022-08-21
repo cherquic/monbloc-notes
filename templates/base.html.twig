@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- 
+<a href="https://www.univ-orleans.fr/iut-orleans/informatique/intra/tuto/php/php-twig.html">Twig</a> 
+https://grafikart.fr/ 
+https://nouvelle-techno.fr/articles/utiliser-twig-dans-un-projet-php-sans-symfony 
+-->
+
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href=https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href=<?= $_SERVER['DOCUMENT_ROOT'] . '/./public/css/style.css'; ?>>
+    <link rel="stylesheet" href='C:/DYMA/monBlocnotes/app/public/css/style.css'> -->
+    <link rel="stylesheet" href='/public/css/style.css'>
+    <script async src='/public/js/index.js'></script>
+    <script async src='/public/js/login.js'></script>
+    <script async src='/public/js/balanceRattachement.js'></script>
+    <script async src='/public/js/datatables.js'></script>
+    
+    {% endblock %}
+</head>
+
+<body>
+
+    <header>
+        {% block header %}
+                <a href='/' id ="logo">MonBloc-notes.fr</a>
+                <a href='/?p=Login'><button id ="compte" class="btn btn-primary" onclick="">Se connecter </button></a>
+        {% endblock %}
+    </header>
+
+    <nav id="nav">
+        {% block nav %}
+                <a href='/?p=Import'>ImportCsv</a> 
+                <a href='/?p=Balance'>Balance</a>
+                <a href='/?p=PlanComptable'>PlanComptable</a>
+        {% endblock %}
+    </nav>
+
+    <div class= "wrapper">
+    
+        <div class= "content">
+            {% block content %}
+            {% endblock %}
+        </content >
+
+    </div>
+
+    <div class="footer" id="footer">
+        {% block footer %}
+            Monbloc-notes.fr - 2022 © Tous droits réservés
+        {% endblock %}
+    </footer>
+
+</body>
+</html>

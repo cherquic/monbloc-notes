@@ -1,0 +1,199 @@
+Compte;Libellé;Débit;Crédit
+60111000;Achats alimentation;102554,07;270,32
+60141000;Achats animaux;116,1;0
+60142000;Achats Pdts liés aux cultures;412,99;0
+60148000;Autres produits agricoles;44,85;0
+60221100;Achat combustible  Bocage;8926,19;0
+60221200;Achat combustible Les Côteaux;5647,79;0
+60221300;Achat combustible Le Vallon;5028,27;0
+60221400;Achat combustible Pavillon;2245,72;0
+60222000;Achat produits entretien;4099,41;0
+60226400;Achat fourn. établissement;791,59;0
+60226500;Achat fournitures duplication;2607,98;0
+60321000;Variat.stock alimentation;2781,8;3355,74
+60322100;Variat.stock combustible;5974,55;5164,32
+60322200;Variat.stocks prod.entret;671,5;1051,72
+60322500;Variat.stock.fourn.bureau;406,31;237,56
+60323500;Variat.stock fourn. établi;447,52;389,21
+60323510;Variat.stock fourn.duplic;1677,11;1659,74
+60420000;Achats en sous-traitance;25403,54;3302,36
+60611000;Electricité;14998,75;556,09
+60611100;Electricité MF;4771,43;169,81
+60612000;Eau;7740,51;2869,59
+60612100;Eau Mfr;1692,65;368,05
+60613000;Gaz;1086,57;0
+60614000;Carburants et lubrifiants;2843,73;0
+60632000;Fourn. entretien & petit équip;3776,78;42,7
+60632100;Four.petit équipement cuisine;3273,11;0
+60633000;Fournitures diverses cuisine;1002,78;0
+60640000;Fournitures Administratives;2806,66;364,2
+60650000;Fournitures informatique;2877,88;0
+60670000;Fournit.&petit matériel pédago;9412,7;718
+60674000;Pharmacie;202,6;0
+60676000;Dot.Aide Equip Profes.Form.Ini;5606,04;0
+60676100;Dot.Aide Equip.Profession.Bts;4853,46;690
+60677000;Gratuité Manuels Scolaires;1422,28;0
+61250000;Crédit-bail mobilier;2734,53;100
+61320000;Locations immobilières;173;0
+61330000;Locat° Equipements Sportifs;4841,62;0
+61350000;Locations mobil.& matérie;3347,79;925
+61510000;Entretien extérieurs;4571,81;0
+61520000;Entretien Réparation Bâtiments;12725,29;0
+61521000;Entretien bâtiments MF;12421,43;0
+61552000;Entretien Répar. Photocopieur;4150,15;0
+61553000;Entretien matérériel cuisine;3596,34;0
+61554000;Entretien véhicule;217,96;0
+61555000;Entretien Répar. Autres Mat.;6167,3;0
+61556000;Entretien Lingeries Couverture;5982,67;0
+61560000;Maintenance;3417,4;428,67
+61610000;Assur RC génér & élèves B;8559,52;0
+61620000;Assurance immeubles B;146,68;0
+61630000;Assurance véhicules;3798,5;0
+61660000;Assurance Elèves MSA;9223,3;0
+61810000;Documentation générale;604,13;227,81
+61820000;Abonnement au Lien/Cahier;1702,67;0
+61830000;Documentation technique;2930,9;856,1
+62124000;Personnels Intervenants extérieurs Service;5906,74;0
+62142000;Personnel prêté autre qu'ensei;4446,61;0
+62260000;Honoraires divers;149,76;0
+62261000;Honoraires pédagogiques;2310;0
+62268000;Honoraires administratifs;3408;0
+62270000;Frais d'actes & de contentieux;2596,76;0
+62310000;Pub:Annonces & insertions;8580,4;239,2
+62330000;Pub:Manifestat° & expositions;6361,81;0
+62360000;Pub: Imprimés & divers;8462,9;3921,38
+62380000;Dons, pourboires B;1055,53;0
+62450000;Dépl liaison école-MS BAC 4/3è;818,8;0
+62451000;Dépl liaison école-MAppren BTS;976,7;0
+62452000;Dépl.liaison école-EmployeurCS;37,44;0
+62461000;Rbst Aide Transport du CR BTS;27660;8485
+62461300;Reversement FSAR;7648,5;0
+62462000;Transports Collectifs Elèves;10439,44;0
+62462100;Transport collectif BTS;4403,7;0
+62463000;Voyage d'études 3ème;3781,35;0
+62463100;Voyage d'études Seconde;7563,67;0
+62463300;Voyage d'études BAC CGEA1;2851,27;0
+62463700;Voyage études BTS;12874,95;0
+62463800;Voyage d'études BAC AP1;1859,91;0
+62511000;Déplacements du personnel;1884,3;0
+62512000;Déplac. administrateurs;1047,84;0
+62513000;Déplacements autres personnes;111,65;0
+62560000;Missions;927,05;0
+62570000;Réception;1928,58;0
+62610000;Affranchissements B;4272,91;949,75
+62621000;Téléphone;5127,13;298,8
+62621100;Téléphone MF;430,36;0
+62630000;Accès Internet;1648,8;52,8
+62700000;Services bancaires B;761,36;206,5
+62812000;Cotisations FDMFREO;30105,92;0
+62813000;Cotisations FRMFREO;9419;0
+62814000;Cotisations UNMFREO;13354,75;0
+62815000;Cotisations Autres Organismes;225,95;0
+62820000;Format° Formateurs (sans rbst);381,87;0
+62821000;Format° diverses (sans remb);352,93;0
+62861000;Restaurat° extérieure apprenti;1141,27;0
+62862000;Restaurat° ext. autres élèves;112;0
+62871000;Voyages d'études, Mobilité  Formation Initiale;33151,32;456,21
+62882000;Charges diverses;155;0
+62883000;Serv.pédag.extér. BTS;3882;0
+62884000;Frais d'activités culturelles;2982;16
+62885000;Serv.pédag.extér.BAC;3708;0
+62885100;Serv.pédag.extér. 4/3;615;0
+62886000;Formation permis poids lourd;1000;0
+62900000;R.R.R.obtenus s/autres serv.Ex;0;2389,2
+63330000;Part.employeurs à la FPC;32410,8;14089,09
+63380000;Autres Impôts, taxes, verst assim. (Agefiph);601,8;0
+63512000;Taxes foncières;7635;0
+63512100;Taxes foncières MFR;2178;0
+63513000;Autres impôts locaux (t.habit);511;0
+63700000;Redevances div. (Sirdomdi);2923,48;316,24
+63780000;Impôts, taxes, divers;2452,24;1462,24
+64111000;Rémunération pers.enseig.;606932,52;0
+64113000;Rémunérat.pers.administr.;59285,95;0
+64114000;Rémunérat.pers.de service;79131;254,88
+64120000;Provisions pour congés payés;23601,74;21409,63
+64140000;Indemnités & avant.divers;400;0
+64511000;Char.soc.MSA pers.enseig.;339799,69;133363,56
+64513000;Ch.soc.MSA pers.adminis.;34023,82;13130,66
+64514000;Ch.soc.MSA pers.service;38350,39;17138,28
+64521000;Ch.soc.AGRR pers.enseig.;27727,78;8762,73
+64523000;Ch.soc.AGRR pers.adminis.;3034,57;961,16
+64524000;Ch. soc. AGRR pers.serv.;3407,54;969,82
+64580000;Cot. aux autres org.sociaux;1646,54;571,91
+64590000;Charges soc/congés à payer;8508,43;7871,12
+64811000;Sessions pers.enseignant;6953,96;0
+64813000;Sessions pers.administrat;130;0
+64890000;Autres charges personnel;918,48;209,1
+65160000;Droits d'auteur et de reproduc;320,46;0
+65410000;Perte sur créance irrécouvr;505;0
+65440000;Créances des ex antérieurs;255;0
+65800000;CHARGES DIVERSES GEST/COU;7,69;0
+65820000;Fonds de réserve;6000;0
+66110000;Intérêts des emprunts B;1127,74;63,29
+66600000;Pertes de change;18,5;0
+67200000;Charges except/exerc antérieur;1002,24;0
+67880000;Autres charges exceptionnelles;15000;0
+68110000;Dotation aux amortiss.;67241,11;0
+68150000;Dotat° aux prov.risques/charge;6025;0
+68174000;Dotation prov.créanc dout;1300,94;0
+68710000;Dot.aux amortis.exceptionnels;50000;0
+68940000;EngagT à réaliser s/subvent°;9198,1;0
+69520000;Impôt/soc ass à but non lucrat;510;0
+70623100;Pension apprentis;45419,24;149504,93
+70625000;Pension élèves form initiale;101253,75;335760,46
+70626000;Pension Formation Continue;4711,88;11279,87
+70635000;Scolarité élèves format init;41365,86;137696,14
+70640000;Prestat° de formation continue;2619,91;26045,03
+70651200;Rbst voyage d'études 3ème;0;3781,36
+70651210;Rbst voyage d'études Secondes;3338,33;10902
+70651230;Rbst voyage d'études CGEA1;0;5301
+70651250;Rbst voyage d'études CGEA2;5796;9828,33
+70651270;Rbst voyage d'études AP1;0;2670,64
+70651280;Rbst voyage d'études AP2;3780;6612,33
+70651290;Rbst Voyage d'études BTS1;3923,25;9142,88
+70651300;Remb permis poids lourds;0;1000
+70651500;Rbst assurance accident trav.;1100,97;4068,55
+70651600;Autres particip (éval entrée);0;2062,5
+70652100;Repas de passage;0;2514,66
+70652200;Pension accueil (Héb.+Restau);2266,63;18296,66
+70671400;Prest act pédag apprent.C.Rég;0;301636,65
+70671500;Prest act pédag apprent T.App;0;19966,11
+70672200;Prestat° Restaurat°apprentis;0;8697
+70674000;Prestat° Transport apprentis;0;19175
+70676000;Prestat°Mobilité Européenne;0;6437,47
+70677000;Prestat° DEP apprentis;0;4009
+70678000;Prestat° FSAR Conseil Régional;0;7648,5
+70813000;Restauration du personnel;0;4549,4
+70830000;Locations diverses;2150;80730,54
+70840000;Mise à disposition personnel;317,32;1563,94
+70881000;Prélèvements alimentation;0;343,07
+70882000;Remboursements divers;971,75;11114,18
+70883000;Remboursement téléphone;36,33;466,69
+70960000;Réduction Scolarité/Pension FI;1021,6;167,76
+74181000;Subv.Fonct Ministère Agricult;0;735153
+74428100;Subv C Rég SGF aides sociales;0;10751,04
+74428200;Subv C.Rég SGF fonct (éq sport;0;10317
+74428400;Subv C. Régional C.E.A.;0;5623
+74430000;Subv fonct Conseil Département;0;5891
+74440000;Subventions des communes;0;288
+74461000;Sub. Organisme internat.des scolaires;22873,84;55568,95
+74483000;Subv diverses(FranceAgrimer...;0;1858,33
+74811000;Taxe apprentissage-Hors Quota;0;16233,48
+74880000;Autres subventions;0;16770,62
+75600000;Frais d'inscritpions;0;2210
+75610000;Cotisations des membres;9675;17068,2
+75886000;Prod.divers contrib° apprentis;3309,49;12058,63
+75887000;Prod.divers Contribution CS;254,63;594,14
+76200000;Produits financiers  B;0;26,93
+76400000;Revenus des VMP;716,05;2709,73
+76500000;Escomptes obtenus;0;128,45
+76800000;Autres produits financiers;0;1639,06
+77180000;Autres pdts exceptionnels;0;295,68
+77200000;Produits except/exerc antér;1315,55;5179,06
+77520000;Prod cess élém actif cédés;0;130
+77700000;Q part subv inv vir CR  B;0;12475,77
+78150000;Repr.sur prov./risq & cha;0;12864,08
+78174000;Repr./prov dépr act circ;0;1743,01
+78940000;Rep.ressources non utilisé N-1;0;7797,76
+79106100;Transf charg exploit (ext);569,08;3252,74
+79106400;Transf charg expl (personnel);682,65;24081,31

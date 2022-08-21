@@ -1,0 +1,72 @@
+{% extends "base.html.twig" %}
+{% block head %} 
+    {{ parent() }} 
+    <link rel="stylesheet" href='/public/css/login.css'>
+ {% endblock %}
+{% block header %} {{ parent() }} {% endblock %}
+{% block nav %} {{ parent() }}  {% endblock %}
+
+{% block content %}
+
+    <div class="container">
+
+        <div class="{{action=='inscription' ? 'container right-panel-active' : 'container' }}" id="container">
+            <div class="form-login-container sign-up-container">
+                <form action="" method="POST">
+                    <h1> S 'inscrire</h1> </br>
+                    <div class="form-login-input">
+                        <input type="text" name="username" id="name" placeholder='name' value={{username}}>
+                        {% if error_username %} <p style="color:red"> {{error_username}} </p>{% endif %}
+                    </div>
+                    <div class="form-login-input">
+                        <input type="email" name="email" placeholder='E-mail' value={{email}}>
+                        {% if error_email%} <p style="color:red"> {{error_email}} </p>{% endif %}
+                        {% if error %} <p style="color:red"> {{error}} </p>{% endif %}
+                    </div>
+                    <div class="form-login-input">
+                        <input type="password" name="password" placeholder='password' value="">
+                        {% if error_password %} <p style="color:red"> {{error_password}} </p>{% endif %}
+                    </div>
+                    <input type="hidden" name="action" value="inscription">
+                    <button> Inscription </button>
+                </form>
+            </div>
+            <div class="form-login-container sign-in-container right-panel-active">
+                <form action="" method="POST">
+                    <h1> Se connecter </h1></br>
+                    <div class="form-login-input">
+                        <input type="email" name="email" placeholder='E-mail' value={{email}}>
+                        {% if error_email %} <p style="color:red"> {{error_email}} </p>{% endif %}
+                    </div>
+                    <div class="form-login-input">
+                        <input type="password" name="password" placeholder='password' value="">
+                        {% if error_password %} <p style="color:red"> {{error_password}} </p>{% endif %}
+                        {% if error %} <p style="color:red"> {{error}} </p>{% endif %}
+                    </div>
+                    <a href='/?p=login_recorver'> Mot de passe oublié ? </a>
+                    <input type="hidden" name="action" value="connexion">
+                    <button> Connexion </button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1> Se connecter </h1>
+                        <p> Vous avez deja un compte ? Connecter vous! </p>
+                        <button class="ghost" id="signIn" onclick='signInOpen()'> Connexion </button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1> Creer un compte </h1>
+                        <p> Vous etes nouveau ? Creer votre compte. </p>
+                        <button class="ghost" id="signUp" onclick='signUpOpen()'> Creer un compte </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+{% endblock %}
+
+ 
+{% block footer %} {{ parent() }} {% endblock %}
